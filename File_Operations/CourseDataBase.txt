@@ -1,0 +1,4 @@
+Name             Course Id            Time Offered 
+Data Structures     CS1234    12:30pm - 2:30pm
+Operating Systems     CS4567    5:50pm - 7:30pm
+VLSI     CS9876    8:30pm - 10:30pm
