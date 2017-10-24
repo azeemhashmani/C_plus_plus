@@ -15,6 +15,7 @@ int main()
 
     string sIpAddr(&ipAddr[0]);
 
+    // Or sIpAddr = ipAddr; initialization after declaration
     cout << sIpAddr << endl;
 
    return 0;
