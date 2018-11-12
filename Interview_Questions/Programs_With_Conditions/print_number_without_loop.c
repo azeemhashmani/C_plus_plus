@@ -5,22 +5,24 @@
 
 /* Function Proto-type
  */
-void print_data(int index);
+void printData(int index);
 
 int main()
 {
     int index = 0;
-    print_data(index);
+    printData(index);
 
 }
 
-void print_data(int index)
+/* Recursively call this function
+ */
+void printData(int index)
 {
-    if (index <= 100)
+    if (index <= 10)
     {
         printf("%d \n", index);
         index++;
 
-        print_data(index);
+        printData(index);
     }
 }
